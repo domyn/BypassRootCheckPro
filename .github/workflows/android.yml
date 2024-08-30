@@ -1,10 +1,10 @@
-name: Android CI
+name: Root Bypass
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "release" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "release" ]
 
 jobs:
   build:
